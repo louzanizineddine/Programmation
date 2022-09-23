@@ -9,11 +9,13 @@ int main() {
     printf("type a number b\n");
     scanf("%d" , &b);
     
-    if ((a <= 0 && b <= 0) || (a >= 0 && b >= 0)) {
-        printf("the prodcut of a * b is positive");
-    }else {
-        printf("the product of a * b is negative");
-    }
+//     if ((a <= 0 && b <= 0) || (a >= 0 && b >= 0)) {
+//         printf("the prodcut of a * b is positive");
+//     }else {
+//         printf("the product of a * b is negative");
+//     }
+
+    ((a <= 0 && b <= 0) || (a >= 0 && b >= 0)) ?  printf("the prodcut of a * b is positive") : printf("the product of a * b is negative");
 
 
     return 0;

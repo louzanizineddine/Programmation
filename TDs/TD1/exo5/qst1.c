@@ -16,16 +16,18 @@ int main() {
     d = (b * b) - ( 4 * a * c);
     printf("delta = %f \n" , d);
 
-    if (d < 0) {
-        printf("the equation %fx^2 + %fx + %f does not solutions in R" , a , b , c);
-    }else if ( d == 0) {
+    d <= 0 ? ( d == 0 ? printf("one solution");printf("test") : {printf("no solutions")}) : {printf("two solutions")};
 
-        printf("the equation has only one solution x = %f \n" , (- b / (float)(2 * a)));
-    }else {
-
-        printf("the equation has two solutions which are x1 = %f and x2 = %f" , 
-        ((- b + sqrtf(d)) / (float)(2 * a))  , ( (- b - sqrtf(d)) / (float)(2 * a)));
-    }
+//     if (d < 0) {
+//         printf("the equation %fx^2 + %fx + %f does not solutions in R" , a , b , c);
+//     }else if ( d == 0) {
+//
+//         printf("the equation has only one solution x = %f \n" , (- b / (float)(2 * a)));
+//     }else {
+//
+//         printf("the equation has two solutions which are x1 = %f and x2 = %f" ,
+//         ((- b + sqrtf(d)) / (float)(2 * a))  , ( (- b - sqrtf(d)) / (float)(2 * a)));
+//     }
 
     return 0;
 }

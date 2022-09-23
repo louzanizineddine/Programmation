@@ -3,7 +3,7 @@
 
 #define TAUX_CNSS 0.175;
 #define TAUX_IMPOT 0.035;
-#define PRIME_ENFANT 30
+#define PRIME_ENFANT 100;
 
 int main () {
     int nmbr_enfants;
