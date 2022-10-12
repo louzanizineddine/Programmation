@@ -13,5 +13,15 @@ int main() {
     }
   }
 
+  // looping through the lines of the first matrix
+  for (int i = 0; i < 2; i++) {
+    // looping throught the columns of the second matrix
+    for (int j = 0; j < 2; j++) {
+      // looping through the reslut matrix
+      for (int k = 0; k < 2; k++) {
+      }
+    }
+  }
+
   return 0;
 }
