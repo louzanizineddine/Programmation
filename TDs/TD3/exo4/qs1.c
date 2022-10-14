@@ -15,6 +15,7 @@ int main() {
 
   while (str[i] != '\0') {
     // if the letter has not been counted before
+    // str[i] - 97] because
     if (frequecy_of_letters[str[i] - 97] == 0) {
       int j = i + 1;
       int counter = 1;

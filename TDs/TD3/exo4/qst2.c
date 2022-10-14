@@ -30,7 +30,7 @@ int main() {
 
     i++;
   }
-  int min_letter = 100000;
+  int min_letter = 100000; // initialiser a la taille de la chaine
   int index_of_min_letter;
   int max_letter = frequecy_of_letters[0];
   int index_of_max_letter;

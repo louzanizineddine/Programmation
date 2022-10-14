@@ -13,9 +13,9 @@ int main() {
 
   while (str[i] != '\0') {
     int decrypted_letter = str[i] - k;
-    if (decrypted_letter < 97) {
-      int diff = 97 - decrypted_letter;
-      str[i] = 122 - diff + 1;
+    if (decrypted_letter < 'a') {
+      int diff = 'a' - decrypted_letter;
+      str[i] = 'z' - diff + 1;
     } else {
       str[i] = str[i] - k;
     }
